@@ -12,7 +12,7 @@ public class Main {
         employee[7] = new Employee("Oleg Sergeevich Beck", 2, 80000);
         employee[8] = new Employee("Elena Swegeevna Noname", 2, 90000);
         employee[9] = new Employee("Irina Petrovna Be", 2, 90000);
-        //System.out.println(employee[i]);
+
         printAll(employee);
         System.out.println("Общее значение зарплаты равно " + totalSalary(employee));
         System.out.println("Минимальное значение зарплаты равно " + getMinSalary(employee));
